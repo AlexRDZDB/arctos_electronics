@@ -1,7 +1,0 @@
-Metadata-Version: 2.1
-Name: arduino-test
-Version: 0.1.0
-Summary: Bridges a ROS 2 Int32 topic to an Arduino Nano over USB serial.
-Maintainer: alexpurdue
-Maintainer-email: alejandrordzdb@gmail.com
-License: MIT
