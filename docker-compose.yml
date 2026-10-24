@@ -1,0 +1,23 @@
+services:
+  ros:
+    build: .
+    image: arctos-arduino:jazzy
+    container_name: arctos_arduino
+    network_mode: host
+    ipc: host
+    init: true
+    stdin_open: true
+    tty: true
+    environment:
+      - ROS_DOMAIN_ID=0
+      # Serial port of the Arduino Nano (CH340/FTDI clones -> ttyUSB0, genuine ATmega16U2 -> ttyACM0)
+      - ARDUINO_PORT=/dev/ttyUSB0
+    # Bind all of /dev and allow USB-serial char devices so the Nano works
+    # even when it is plugged in after the container is started.
+    #   188 = ttyUSB*,  166 = ttyACM*
+    volumes:
+      - ./ros_ws:/ros_ws
+      - /dev:/dev
+    device_cgroup_rules:
+      - "c 188:* rmw"
+      - "c 166:* rmw"

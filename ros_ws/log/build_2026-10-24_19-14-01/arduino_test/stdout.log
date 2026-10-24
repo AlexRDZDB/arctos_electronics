@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating arduino_test.egg-info
+writing arduino_test.egg-info/PKG-INFO
+writing dependency_links to arduino_test.egg-info/dependency_links.txt
+writing entry points to arduino_test.egg-info/entry_points.txt
+writing requirements to arduino_test.egg-info/requires.txt
+writing top-level names to arduino_test.egg-info/top_level.txt
+writing manifest file 'arduino_test.egg-info/SOURCES.txt'
+reading manifest file 'arduino_test.egg-info/SOURCES.txt'
+writing manifest file 'arduino_test.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros_ws/install/arduino_test/lib/python3.12/site-packages/arduino-test.egg-link (link to .)
+Installing ArduinoTestNode script to /ros_ws/install/arduino_test/lib/arduino_test
+
+Installed /ros_ws/build/arduino_test
+running symlink_data
+creating /ros_ws/install/arduino_test/share/ament_index
+creating /ros_ws/install/arduino_test/share/ament_index/resource_index
+creating /ros_ws/install/arduino_test/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/build/arduino_test/resource/arduino_test -> /ros_ws/install/arduino_test/share/ament_index/resource_index/packages
+symbolically linking /ros_ws/build/arduino_test/package.xml -> /ros_ws/install/arduino_test/share/arduino_test

@@ -1,0 +1,24 @@
+[0.661s] Invoking command in '/ros_ws/build/arduino_test': PYTHONPATH=/ros_ws/build/arduino_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/install/arduino_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/build/arduino_test/build --no-deps symlink_data
+[0.833s] running develop
+[0.926s] running egg_info
+[0.926s] creating arduino_test.egg-info
+[0.934s] writing arduino_test.egg-info/PKG-INFO
+[0.935s] writing dependency_links to arduino_test.egg-info/dependency_links.txt
+[0.935s] writing entry points to arduino_test.egg-info/entry_points.txt
+[0.935s] writing requirements to arduino_test.egg-info/requires.txt
+[0.935s] writing top-level names to arduino_test.egg-info/top_level.txt
+[0.935s] writing manifest file 'arduino_test.egg-info/SOURCES.txt'
+[0.953s] reading manifest file 'arduino_test.egg-info/SOURCES.txt'
+[0.953s] writing manifest file 'arduino_test.egg-info/SOURCES.txt'
+[0.962s] running build_ext
+[0.963s] Creating /ros_ws/install/arduino_test/lib/python3.12/site-packages/arduino-test.egg-link (link to .)
+[0.963s] Installing ArduinoTestNode script to /ros_ws/install/arduino_test/lib/arduino_test
+[0.963s] 
+[0.963s] Installed /ros_ws/build/arduino_test
+[0.964s] running symlink_data
+[0.964s] creating /ros_ws/install/arduino_test/share/ament_index
+[0.964s] creating /ros_ws/install/arduino_test/share/ament_index/resource_index
+[0.964s] creating /ros_ws/install/arduino_test/share/ament_index/resource_index/packages
+[0.964s] symbolically linking /ros_ws/build/arduino_test/resource/arduino_test -> /ros_ws/install/arduino_test/share/ament_index/resource_index/packages
+[0.964s] symbolically linking /ros_ws/build/arduino_test/package.xml -> /ros_ws/install/arduino_test/share/arduino_test
+[0.988s] Invoked command in '/ros_ws/build/arduino_test' returned '0': PYTHONPATH=/ros_ws/build/arduino_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros_ws/install/arduino_test/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros_ws/build/arduino_test/build --no-deps symlink_data

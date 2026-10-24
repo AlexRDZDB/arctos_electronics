@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+arduino_test/__init__.py
+arduino_test/arduino_test_node.py
+arduino_test.egg-info/PKG-INFO
+arduino_test.egg-info/SOURCES.txt
+arduino_test.egg-info/dependency_links.txt
+arduino_test.egg-info/entry_points.txt
+arduino_test.egg-info/requires.txt
+arduino_test.egg-info/top_level.txt
+arduino_test.egg-info/zip-safe
+resource/arduino_test
